@@ -1,0 +1,53 @@
+.btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 15px;
+  margin: 0 .5rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2 5.25 4rem rgba(rgb(255, 255, 255), .2);
+}
+
+.btn-easy {
+  background-color: #67C550;
+}
+
+.btn-easy:hover {
+  background-color: rgb(113, 218, 87);
+  transition: all .2s;
+}
+
+.btn-medium {
+  background-color: #E1943C;
+}
+
+.btn-medium:hover {
+  background-color: rgb(240, 158, 64);
+  transition: all .2s;
+}
+
+.btn-hard {
+  background-color: #C55050;
+} 
+
+.btn-hard:hover {
+  background-color: rgb(218, 88, 88);
+  transition: all .2s;
+}
+
+.btn-reset {
+  background-color: white;
+  margin-top: 2rem;
+  width: 100%;
+  color: rgb(100, 100, 100);
+}
+
+.btn-reset:hover {
+  background-color: rgb(110, 110, 110);
+  color: rgb(255, 255, 255);
+  transition: all .2s;
+}

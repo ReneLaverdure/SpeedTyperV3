@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SpeedTyper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+<body>
+  
+<div class="background">
+    
+
+  <div class="container">
+
+    <h1>SpeedTyper</h1>
+    <p>Test and train your typing skill using SpeedTyper. Set a perfered level of difficulty and test how many words you can type within the minute.</p>
+
+    <div class="settings" id="diff">
+        <button class="btn btn-easy" id="easy">Easy</button>
+        <button class="btn btn-medium" id="medium">Medium</button>
+        <button class="btn btn-hard" id="hard">Hard</button>
+    </div>
+
+      <h4 id="timer">60</h4>
+
+    <div class="score">
+    </div>
+
+      <div class="wordbox">
+        <div class="word-output">
+        </div>
+      </div>
+
+
+      <div class="bottom-container">
+        
+          <input id="input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" autocorrect="off" placeholder="Type the words here">
+          <button class="btn btn-reset" id="reset">Reset</button>
+      </div>
+      
+  </div>
+
+
+</div>
+
+
+
+  <div class="score-card">
+    <div class="score-content">
+        <div class="score-background">
+          <div class="score-display">
+
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="scripts/wordGen.js"></script>
+  <script src="scripts/ui.js"></script>
+  <script src="scripts/controller.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
